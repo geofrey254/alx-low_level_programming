@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main: main function initialized with void parameter
+ * Main: main
  * Return: 0
  */
 int main(void)
