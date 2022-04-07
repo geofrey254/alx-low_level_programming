@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main function: returns 0 after the block is executed
+ * Main: main function initialized
  * Return: 0
 */
 int main(void)
