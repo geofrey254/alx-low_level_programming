@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main function: returns 0
- * Print out script
+ * Main function: returns 0 after the block is executed
+ * Return: 0
 */
 int main(void)
 {
