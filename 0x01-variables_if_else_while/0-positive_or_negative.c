@@ -16,13 +16,14 @@ int main(void)
 	/*if statement to check for number condition*/
 	if (n > 0)
 	{
-		printf("%lu, is positive\n")
+		printf("%u, is positive\n", n);
 	}
 	else if(n == 0) {
-		printf("%hd, is zero\n")
+		printf("%u, is zero\n", n);
 	}
 	else if(n < 0){
-		printf("%ld, is negative\n")
+		printf("%d, is negative\n", n);
 	}
+
 	return (0);
 }
