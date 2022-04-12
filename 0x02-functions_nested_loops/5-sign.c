@@ -5,12 +5,12 @@
  */
 int print_sign(int n)
 {
-	int nom = 0;
+	int n = 0;
 
-	if (nom > 0)
+	if (n > 0)
 		return (1);
-	else if (nom == 0)
+	else if (n == 0)
 		return (0);
-	else if(nom < 0)
+	else if(n < 0)
 		return (-1);
 }
