@@ -11,6 +11,6 @@ int print_sign(int n)
 		return (1);
 	else if (nom == 0)
 		return (0);
-	else (nom < 0)
+	else if(nom < 0)
 		return (-1);
 }
