@@ -11,10 +11,10 @@ void print_line(int n)
 	{
 		if(n <= 0)
 		{
-			printf("\n");
+			_putchar('\n');
 		}
 		else
-			printf("_");
+			_putchar('_');
 	}
-	printf("\n");
+	_putchar('\n');
 }
