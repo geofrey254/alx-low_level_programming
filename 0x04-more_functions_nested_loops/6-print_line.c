@@ -7,16 +7,16 @@
 
 void print_line(int n)
 {
-	int line = 1;
+	int line;
 
-	for (; line <= n; line++)
+	for (line = 1; line <= n; line++)
 	{
-		if(line > 0)
+		if(line <= 0)
 		{
-			_putchar('_');
+			_putchar('\n');
 		}
 		else
-			_putchar('\n');
+			_putchar('_');
 	}
 	_putchar('\n');
 }
