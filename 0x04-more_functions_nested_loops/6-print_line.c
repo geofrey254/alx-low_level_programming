@@ -2,6 +2,7 @@
 
 /**
  * print_line - entry point
+ * @n: number of lines
  * Return:void
  */
 
