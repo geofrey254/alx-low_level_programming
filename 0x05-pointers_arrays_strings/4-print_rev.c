@@ -4,7 +4,7 @@
 
 /**
  * print_rev - starting point
- * @str: variable declaration
+ * @s: variable declaration
  * Return: always void
  */
 
@@ -17,4 +17,5 @@ void print_rev(char *s)
 		_putchar(s[i]);
 		i--;
 	}
+	_putchar('\n');
 }
