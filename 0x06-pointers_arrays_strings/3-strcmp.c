@@ -10,5 +10,9 @@
 int _strcmp(char *s1, char *s2)
 {
 	if (s1 == s2)
-		return (0);
+		printf("Similar");
+	else
+		printf("Non-similar");
+
+	return (0);
 }
