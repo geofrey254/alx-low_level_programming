@@ -9,8 +9,8 @@
 
 void reverse_array(int *a, int n)
 {
-	for (int i = n - 1; i >= 0; i--)
+	for (int i = n - 1; i >= 0;)
 	{
-		printf("%d\n", a[i]);
+		i--;
 	}
 }
