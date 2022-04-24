@@ -2,6 +2,7 @@
 
 /**
  * rot13 - starting point
+ * @s: var s declaration
  * Return: always char
  */
 
