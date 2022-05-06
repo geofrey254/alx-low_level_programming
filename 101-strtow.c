@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * strtow - starting point
@@ -25,6 +26,7 @@ char **strtow(char *str)
 	}
 
 	return (w);
+}
 /**
  * **strtow - splits a string into words
  * @str: string to split
