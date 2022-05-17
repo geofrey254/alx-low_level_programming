@@ -9,8 +9,8 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-    va_list ptr;
     int tot_sum = 0;
+    va_list ptr;
 
     if (n == 0)
             return (0);
