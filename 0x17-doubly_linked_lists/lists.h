@@ -1,5 +1,5 @@
-#ifndef _LISTS.H_
-#define _LISTS.H_
+#ifndef _LISTSH_
+#define _LISTSH_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,6 +9,9 @@
  * @n: integer
  * @prev: points to the previous node
  * @next: points to the next node
+ *
+ * Description: doubly linked list node structure
+ *
  */
 typedef struct dlistint_s
 {
